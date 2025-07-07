@@ -2,7 +2,7 @@
 sidebar_position: 99
 ---
 
-# Problem Title Template
+# Defective Ball (to be written)
 
 ## Problem
 

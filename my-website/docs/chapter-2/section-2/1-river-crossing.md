@@ -1,5 +1,5 @@
 ---
-sidebar_position: 99
+sidebar_position: 1
 ---
 
 # River Crossing
@@ -36,7 +36,9 @@ What is the minimum time to get all of them across to the other side?
 
 <details>
   <summary className="show-sol">Show Explanation</summary>
-  
+
+To utilize the event that A and B go together to optimize time. The routine is as below:
+
 1. C and D cross together in 2 minutes.  
 2. D returns with the flashlight in 1 minute.  
 3. A and B cross together in 10 minutes.  
