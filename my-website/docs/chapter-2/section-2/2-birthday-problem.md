@@ -26,7 +26,7 @@ A told you only the month of his birthday, and told your colleague C only the da
 <details>
   <summary>Hint 1</summary>
 
-  There are 3 sequences that eliminate the birthday candidates
+  There are 3 mentioned dialogs that eliminate the birthday candidates in sequence.
 </details>
 
 <details>
@@ -49,24 +49,28 @@ A told you only the month of his birthday, and told your colleague C only the da
 
 <details>
   <summary className="show-sol">Show Explanation</summary>
-  
-  **Explanation:**
 
 **Explanation:**
 
-Don’t let the “he said, she said” part confuse you. Just interpret the logic behind each individual’s comments and try your best to derive useful information from these comments.
+First, remember:
+- You know the **month**.
+- C knows the **day**.
 
-Let **D** be the day of the month of A’s birthday. The possible days are: {1, 2, 4, 5, 7, 8}. If the birthday was on a **unique** day, then C would know A’s birthday immediately. Among these days, 2 and 7 are unique.  
+There are some days (like 2 and 7) that only appear once, so if C had gotten those days, he would know the birthday right away. But you say *C doesn’t know it*, so the day cannot be 2 or 7. That means the birthday is not in June or December, because those months have days 2 or 7.
 
-Considering that you are sure that C does **not** know A’s birthday, you must infer that the day C was told is **not** 2 or 7. Conclusion: the month cannot be June or December. (If the month had been June, the day C was told might have been 7; if the month had been December, the day might have been 2.)
+Now the possible months left are March and September.
 
-Now, C knows that the month must be either March or September. He immediately figures out A’s birthday, which means the day must be unique among the March and September dates. That means A’s birthday cannot be March 5 or September 5 (since those days repeat across March/September).  
+Next, C hears this, and says *“now I know the birthday.”* That means C’s day must be unique among the March and September dates:
+- March days: 4, 5, 8
+- September days: 1, 5
 
-So the birthday must be one of: March 4, March 8, or September 1.  
+Day 5 appears in both March and September, so if C had 5, he still wouldn’t know. So the birthday cannot be March 5 or September 5.
 
-Among these three possibilities, March 4 and March 8 have the same month. So if your month was March, you still could not figure out A’s birthday. Since you are able to figure it out, A’s birthday must be **September 1**.
+That leaves:
+- March 4, March 8, September 1
 
-Hence, the assistant must have written **September 1**.
+Finally, you say *“now I know it, too.”* If the month had been March, you still wouldn’t know because March has two dates left (March 4 and March 8). But you do know — so the month must be September, with only one date left: **September 1**.
+
 
 </details>
 
