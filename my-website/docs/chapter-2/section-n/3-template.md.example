@@ -1,0 +1,58 @@
+---
+sidebar_position: 99
+---
+
+# Problem Title Template
+
+## Problem
+
+<p style={{ fontSize: "1.2rem", fontStyle: "italic" }}>
+
+Insert question in a nice way
+
+</p>
+
+---
+
+## Hints
+
+<details>
+  <summary>Hint 1</summary>
+
+  Hint 1 here
+</details>
+
+<details>
+  <summary>Hint 2</summary>
+
+  Hint 2 here. Hint 3? just copy paste below
+</details>
+
+<details>
+  <summary>Hint 3</summary>
+
+  Hint 3 here. Hint 4? just copy paste below
+</details>
+---
+
+## Solution
+
+<details>
+  <summary className="show-sol">Show Solution</summary>
+
+  17 minutes
+</details>
+
+<details>
+  <summary className="show-sol">Show Explanation</summary>
+  
+  bunch of markdown and math text
+</details>
+
+## Follow-up Question
+
+<details class="followup">
+  <summary>Follow-up</summary>
+
+  follow up and answer if necessary
+</details>
