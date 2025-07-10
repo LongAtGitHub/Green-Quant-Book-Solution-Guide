@@ -47,6 +47,7 @@ Insert question in a nice way
   <summary className="show-sol">Show Explanation</summary>
   
   bunch of markdown and math text
+  ![Decision Tree for Defective Ball](/img/2-2-defective-ball.png)
 </details>
 
 ## Follow-up Question
