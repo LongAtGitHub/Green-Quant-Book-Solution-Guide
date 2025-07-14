@@ -29,3 +29,5 @@ Whether you are:
 ---
 
 Happy problem-solving!
+
+**Click on the sidebar on the left to search for problems**

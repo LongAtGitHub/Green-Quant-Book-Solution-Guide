@@ -16,6 +16,17 @@ const config = {
   tagline: 'A practical walkthrough for solving the Quant Green Book — with clarity, depth, and confidence.',
   favicon: 'img/favicon.ico',
 
+  plugins: [
+  [
+    '@orama/plugin-docusaurus-v3',
+    {
+      indexDocs: true,
+      indexBlog: false,
+      indexPages: false,
+    },
+  ],
+],
+
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
@@ -109,7 +120,20 @@ const config = {
           //   label: 'GitHub',
           //   position: 'right',
           // },
+      //     {
+      //   label: 'Chapters',
+      //   position: 'left',
+      //   items: [
+      //     { label: 'Chapter 1: Basics', to: '/docs/chapter-1' },
+      //     { label: 'Chapter 2: Strategies', to: '/docs/chapter-2' },
+      //     { label: 'Chapter 3: Code Examples', to: '/docs/chapter-3' },
+      //     { label: 'Chapter 4: Glossary', to: '/docs/glossary' },
+      //   ],
+      // },
+
+          { type: 'search', position: 'left' },
         ],
+
       },
       footer: {
         style: 'dark',

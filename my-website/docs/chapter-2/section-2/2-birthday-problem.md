@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ## Problem
 
-<p style={{ fontSize: "1.2rem", fontStyle: "italic" }}>
+<div style={{ fontSize: "1.2rem", fontStyle: "italic" }}>
 
 You and your colleagues know that your boss A's birthday is one of the following 10 dates:
 
@@ -17,7 +17,7 @@ You and your colleagues know that your boss A's birthday is one of the following
 
 A told you only the month of his birthday, and told your colleague C only the day. After that, you first said: "I don't know A's birthday; C doesn't know it either." After hearing what you said, C replied: "I didn't know A's birthday, but now I know it." You smiled and said: "Now I know it, too." After looking at the 10 dates and hearing your comments, your administrative assistant wrote down A's birthday without asking any questions. So what did the assistant write?
 
-</p>
+</div>
 
 ---
 
